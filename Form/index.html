@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+
+        <h2>Employee Management System</h2>
+
+    
+  <br> <hr>
+    <form action="" method="post">
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <caption> <h3>Enter Employee Details</h3></caption>
+            <tr>
+                <th> <label for="">Employee ID:</label></th>
+                <td><input type="number" name="empid" required placeholder="Enter Name"></td>
+            </tr>
+            <tr>
+                <th> <label for="">Employee Name</label></th>
+                <td> <input type="text" name="empname" required placeholder="Enter Name"> </td>
+            </tr>
+            <tr>
+                <th><label for="">Email ID</label></th>
+                <td><input type="email" name="empemail" required placeholder="Enter Email ID"></td>
+            </tr>
+            <tr>
+                <th><label for="pass">Password</label></th>
+                <td><input type="password" name="emppass" required placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <th><label for="empadd">Address</label></th>
+                <td> <textarea type="text" name="empadd" required placeholder="Enter Address" rows="7"></textarea> </td>
+            </tr>
+            <tr>
+                <th><label for="">Gender</label></th>
+                <td> <label for="">Male</label>
+                    <input type="radio" name="gen"> 
+                    <label for="">Female</label>
+                    <input type="radio" name="gen"> 
+                </td>
+            </tr>
+            <tr>
+                <th><label for="">Employee Photo</label></th>
+                <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+                <th><label for="">Select City</label></th>
+                <td>
+                    <select name="city" id="" required>
+                        <option value="">Delhi</option>
+                        <option value="">Mumbai</option>
+                        <option value="">Bangalore</option>
+                        <option value="">Chennai</option>
+                        <option value="">Kolkata</option>
+                        <option value="" selected>Patna</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+               <th><label for="">Qualification</label></th> 
+               <td><input type="text" required placeholder="Enter Qualification"></td>
+            </tr>
+
+        </table>
+        
+        <br>
+       
+        <button type="empsub">Submit Details</button>
+
+    </form>
+
+
+</center>
+
+
+</body>
+</html>
